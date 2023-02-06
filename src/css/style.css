@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://webstockreview.net/images/clipart-cloud-animated-gif-1.gif) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-color: #032238;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: repeat-x;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt-search-city {
+  padding: 10px;
+  border-radius: 10px;
+  width: 40%;
+  margin-right: -72px;
+}
+
+.btn-Search {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title-name {
+  font-size: 4rem;
+}
+
+a {
+  border: none;
+  border-style: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav_button {
+  border: none;
+  border-style: none;
+  outline: none;
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+}
+
+.nav_button.active {
+  background: #fff;
+  padding: 4px 0 5px 8px;
+  width: 41px;
+  height: 40px;
+  margin: 0;
+}
+
+.nav_button:hover {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-style: none;
+}
+
+.toggle-temp {
+  background: #aaa;
+  width: 80px;
+  height: 40px;
+  margin: 10px auto;
+}
+
+.warning {
+  display: none;
+}
+
+.warning-block {
+  display: block;
+}

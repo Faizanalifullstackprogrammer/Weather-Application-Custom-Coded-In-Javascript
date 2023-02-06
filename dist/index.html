@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather-App</title>
+</head>
+<body id="body">
+
+
+    <div class="d-none alert alert-success" id="alert"></div>
+    <div id="danger-div">
+      <p class="warning danger alert alert-danger" id="dangerr"></p>
+    </div>
+
+  <h1 class="title-name font-weight-bold text-capitalize">Weather App</h1>
+
+  <div class="div-input-data w-100">
+    <form id="form-data">
+      <input type="text" id="search-city" class="txt-search-city" required placeholder="City Name" autocomplete="off" >
+      <button class="btn-Search btn btn-primary" id="btn-search">Search</button>
+    </form>
+
+    <div class="toggle-temp d-flex align-items-center justify-content-center">
+      <a id="fahr-temp" class="h3 nav_button">F</a>
+      <a id="cels-temp" class="h3 nav_button active">C</a>
+    </div>
+  </div>
+
+  <div class="display-data mt-3 p-3 w-50 " id="display-data-card">
+    <div class="d-flex align-items-center justify-content-between mt-2">
+      <div class="icon-weather" id="weather-icons">
+      </div>
+      <div id="weather-desc" ></div>
+    </div>
+    <h1 class="city-name d-flex align-items-center justify-content-center mt-2"></h1>
+    <div class="d-flex justify-content-between">
+      <p class="pressure h5"></p>
+      <p class="celcius h5"></p>
+      <p class="humidity h5"></p>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+  
+</body>
+</html>
